@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="broname" value="ch"/>
+    <parameter name=" username" value="admin"/>
+    <parameter name=" wpwd" value="manager"/>
+    <classes>
+      <class name="org.TestNGex.ParametertestNG">
+        <methods>
+          <include name="loginActTime" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- org.TestNGex.ParametertestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
